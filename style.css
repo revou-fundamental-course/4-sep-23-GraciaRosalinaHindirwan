@@ -1,0 +1,154 @@
+body{
+   font-family:cursive;
+}
+#kalkulator{
+   font-family:Cursive;
+   color: #D7C0AE;
+}
+#hitung{
+   font-family:serif;
+   color: #EEE3CB;
+}
+
+
+header{
+    background-color:#967E76;
+    color:white;
+    height:90px;
+    border-radius:5px;
+    Display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#header{
+    background-color: #967E76;
+    color: #EEE3CB;
+    font-family: sans-serif;
+    height:60px;
+    border-radius:5px;
+    Display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.welcome{
+    text-align:center;
+    color:#9BABB8;
+}
+
+#pembuka{
+    font-size:16px;
+    text-align:center;
+    margin-top:-20px;
+    color:#967E76;
+}
+
+.persegi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200;
+    width: 200px;
+}
+
+#rumusPersegi{
+    display: inline-block;
+    background-color: #D7C0AE;
+    padding: 0px 10px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.LKpersegi{
+    display: flex;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #9BABB8;
+    color: whitesmoke;
+}
+
+.persegipanjang{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+}
+
+#rumusPersegiPanjang{
+    display: inline-block;
+    background-color: #D7C0AE;
+    padding: 0px 10px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.LKpersegipanjang{
+    display: flex;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #9BABB8;
+    color: whitesmoke;
+}
+.buttonclick
+display:flex;
+flex-direction:column;
+font-weight:italic;
+}
+
+label{
+   margin-bottom:2px;
+    font-size:20px;
+    font-weight:bold;
+    color:#9BABB8;
+}
+
+input{
+    padding:6px;
+    border:2px solid#EEE3CB;
+    border-radius:4px;
+    outline:none;
+}
+
+button{
+    padding:10px 16px;
+    border-radius:4px;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    background-color:#EEE3CB;
+    color:#967E76;
+}
+
+button:hover{
+    color:#EEE3CB;
+    background-color:#9BABB8;
+}
+
+button:active{
+    transform:translatey(2px);   
+}
+input:focus{
+    border-color:#967E76;
+}
+
+.Luasinputsection{
+    display:flex;
+    flex-direction:column;
+    margin-top:24px;
+}
+
+.inputButton{
+display:flex;
+flex-direction:row;
+justify-content:center;
+margin-top:8px;
+}
+
+#vertikal{
+    border: 2px solid #967E76;
+}
+
+}

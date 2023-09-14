@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <header>
+        <h1 id="kalkulator">Kalkulator Hitung</h1>&nbsp&nbsp
+        <h1 id="hitung">Persegi</h1>
+    </header>
+    <br>
+    <h1 class="welcome">WELCOME!</h1>
+    <p id="pembuka"> Selamat datang di Kalkulator Hitung Persegi!</p>
+    <p id="pembuka"> Web yang membantu kalian dalam menghitung Luas dan Keliling dalam persegi dan persegi panjang</p>
+    <br>
+    <h2 id="header">Luas dan Keliling Persegi</h2>
+
+<!--bagian gambar persegi-->
+    <img src="file:///C:/Users/NeldaChen/Downloads/Persegi_finirezyhome.wordpress.co.width-500.format-webp%20(1).webp" class="persegi" alt="gambar persegi ">
+
+    <center><p>Rumus Luas Persegi : </p></center>
+    <center><h3 id="rumusPersegi">L = S x S </h3></center>
+    <center><p>Rumus Keliling Persegi : </p></center>
+    <center><h3 id="rumusPersegi">K = 4 x S </h3></center>
+
+    <div>
+    <p>Keterangan : </p>
+    <p>L = Luas persegi &nbsp K = Keliling </p>
+    <p>S = Sisi persegi &nbsp L = Luas </p>
+   </div>
+
+<br><br>
+
+<!--bagian Persegi-->
+    <h2 class="LKpersegi">Hitung Persegi</h2>
+    <section class="Luasinputsection">
+        <label for="sisi">Sisi Persegi:</label>
+        <input type="number" id="sisiPersegi" placeholder="Masukkan sisi">&nbsp
+    </section>
+    <section class="inputButton">
+        <button onclick="hitungLuasPersegi()">Luas</button>&nbsp&nbsp
+        <button onclick="hitungKelilingPersegi()">Keliling</button>
+    </section>
+    <p id="luasPersegi"></p>
+    <p id="kelilingPersegi"></p>
+    <br>
+
+<hr id="vertikal">
+    
+
+<br><br><br>
+<!--bagian gambar persegi panjang-->
+    <img src="https://rumuspintar.com/wp-content/uploads/2019/07/Persegi-Panjang.jpg" class="persegipanjang" alt="gambar persegi panjang"><<center><p>Rumus Luas Persegi Panjang :</p></center>
+    <center><h3 id="rumusPersegiPanjang">L = P x L</h3></center>
+    <center><p>Rumus Keliling Persegi Panjang</p></center>
+    <center><h3 id="rumusPersegiPanjang">K = 2 x (P+L) </h3></center>
+
+    <div>
+    <p>Keterangan : </p>
+    <p>P = Panjang persegi Panjang &nbsp K = Keliling </p>
+    <p>L = Lebar persegi Panjang &nbsp L = Luas </p>
+   </div>
+
+   <br><br>
+
+<!--bagian persegi panjang-->
+    <h2 class="LKpersegipanjang"> Hitung Persegi Panjang</h2> 
+    <section class="Luasinputsection">
+        <label for="panjang">Panjang Persegi:</label>
+        <input type="number" id="panjangPersegiPanjang" placeholder="Masukkan panjang">&nbsp
+         <label for="lebar">lebar Persegi:</label>
+        <input type="number" id="lebarPersegiPanjang" placeholder="Masukkan lebar">
+    </section>
+    <section class="inputButton">
+        <button onclick="hitungLuasPersegiPanjang()">Luas</button>&nbsp&nbsp
+        <button onclick="hitungKelilingPersegiPanjang()">Keliling</button>
+    </section>
+    <p id="luasPersegiPanjang"></p>
+    <p id="kelilingPersegiPanjang"></p>
+
+
+ <script src="script.js"></script>
+</body>
+</html> 
